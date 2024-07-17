@@ -1,0 +1,200 @@
+<mxfile host="65bd71144e">
+    <diagram id="whsvw9BAwa8M8qadcSOC" name="Страница 1">
+        <mxGraphModel dx="3996" dy="2764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <object placeholders="1" c4Type="Relationship" c4Technology="" c4Description="" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="92">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="86" target="84" edge="1">
+                        <mxGeometry width="240" relative="1" as="geometry">
+                            <mxPoint x="1308" y="1237" as="sourcePoint"/>
+                            <mxPoint x="2499" y="1047" as="targetPoint"/>
+                            <Array as="points">
+                                <mxPoint x="2522" y="1173"/>
+                                <mxPoint x="2522" y="864"/>
+                            </Array>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="Relationship" c4Description="Сообщения с &#10;данными" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="87">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="77" target="86" edge="1">
+                        <mxGeometry x="0.8031" width="240" relative="1" as="geometry">
+                            <mxPoint x="278" y="950" as="sourcePoint"/>
+                            <mxPoint x="523" y="853.1428571428573" as="targetPoint"/>
+                            <mxPoint as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Catalog Searcher" c4Type="Container" c4Technology="GoLang" c4Description="Поиск предложений по запросу пользователя, фильтрация и формирование результирующей выборки." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="25">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+                        <mxGeometry x="1663" y="566" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="API Gateway" c4Type="Container" c4Technology="GoLang" c4Description="Реализация единого API для BFF, маппинг запросов в protoBuf для использования gRPC" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="28">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+                        <mxGeometry x="1260" y="444" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Catalog DB Reader" c4Type="Container" c4Technology="GoLang" c4Description="Сервис чтения данных о каталоге предложений из хранилища." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="45">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+                        <mxGeometry x="1381" y="790" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="Relationship" c4Technology="Protobuf/gRPC" c4Description="Запрос на поиск&#10;предложений услуг" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="48">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="28" target="25" edge="1">
+                        <mxGeometry x="-0.0011" width="240" relative="1" as="geometry">
+                            <mxPoint x="1521" y="840" as="sourcePoint"/>
+                            <mxPoint x="1761" y="840" as="targetPoint"/>
+                            <mxPoint as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="Search DB" c4Container="Container" c4Technology="Elasticsearch" c4Description="Хранение данных для организации быстрого поиска предложений по запросу" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="49">
+                    <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1663" y="787" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="Relationship" c4Description="Поиск предложений&#10;по запросу" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="50">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="25" target="49" edge="1">
+                        <mxGeometry width="240" relative="1" as="geometry">
+                            <mxPoint x="1466" y="896" as="sourcePoint"/>
+                            <mxPoint x="1706" y="896" as="targetPoint"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Search Processing" c4Type="Container" c4Technology="GoLang" c4Description="Сервис подготовки и оптимизации данных для поисковой системы" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="51">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+                        <mxGeometry x="1663" y="997" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="Relationship" c4Description="Запись данных&#10;для поиска предложений" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="52">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="51" target="49" edge="1">
+                        <mxGeometry width="240" relative="1" as="geometry">
+                            <mxPoint x="1783" y="1020" as="sourcePoint"/>
+                            <mxPoint x="1756" y="1076" as="targetPoint"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="Relationship" c4Technology="Protobuf/gRPC" c4Description="Запрос актуальных &#10;данных о каталоге предложений" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="53">
+                    <mxCell style="endArrow=none;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=0;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;startArrow=block;startFill=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="45" target="51" edge="1">
+                        <mxGeometry x="-0.5195" width="240" relative="1" as="geometry">
+                            <mxPoint x="1368" y="999" as="sourcePoint"/>
+                            <mxPoint x="1608" y="999" as="targetPoint"/>
+                            <Array as="points">
+                                <mxPoint x="1561" y="1057"/>
+                            </Array>
+                            <mxPoint as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Schema Registry" c4Type="Container" c4Technology="Json/Proto" c4Description="Регистр структуры сообщений, используемых в системе" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="57">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+                        <mxGeometry x="963" y="625" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="Relationship" c4Description="Получение структуры &#10;для валидации входящих сообщений" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="59">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="86" target="57" edge="1">
+                        <mxGeometry width="240" relative="1" as="geometry">
+                            <mxPoint x="633" y="779" as="sourcePoint"/>
+                            <mxPoint x="653" y="851" as="targetPoint"/>
+                            <Array as="points"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="USuperTravel" c4Type="SystemScopeBoundary" c4Application="Software System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="64">
+                    <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+                        <mxGeometry x="606" y="423" width="1611" height="842" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="Operators Event Queue" c4Container="Container" c4Technology="Apache Kafka" c4Description="Очередь событий операторов услуг с изменениями предложений каталога и Media-контента" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="77">
+                    <mxCell style="shape=cylinder3;size=15;direction=south;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="636" y="543" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Catalog AI Searcher" c4Type="Container" c4Technology="GoLang" c4Description="Подбор предложений для пользователя, фильтрация с помощью AI." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="83">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+                        <mxGeometry x="1939" y="564" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="AI Service" c4Type="Software System" c4Description="Предоставляет функции поиска по каталогу предложений с использованием искусственного интелекта" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="84">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+                        <mxGeometry x="2249" y="804" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="AI Service (Reserve)" c4Type="Software System" c4Description="Резервный сервис, предоставляющий функции поиска по каталогу предложений с использованием искусственного интелекта" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="85">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+                        <mxGeometry x="2249" y="977" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Catalog ML Processing" c4Type="Container" c4Technology="GoLang" c4Description="Подготовка данных для дообучения модели искусственного интеллекта" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="86">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+                        <mxGeometry x="1260" y="1086" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="ML DataBase" c4Container="Container" c4Technology="Postgre SQL" c4Description="Хранилище данных, необходимых для обучения модели AI" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="88">
+                    <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1103" y="790" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="Relationship" c4Description="Запись данных &#10;для обучения&#10;в хранилище" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="89">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.25;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="86" target="88" edge="1">
+                        <mxGeometry x="-0.663" width="240" relative="1" as="geometry">
+                            <mxPoint x="868" y="906" as="sourcePoint"/>
+                            <mxPoint x="850" y="1025" as="targetPoint"/>
+                            <mxPoint as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="Relationship" c4Technology="Protobuf/gRPC" c4Description="Запрос полных данных&#10; о предложениях" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="90">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.75;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="86" target="45" edge="1">
+                        <mxGeometry x="-0.4915" y="-1" width="240" relative="1" as="geometry">
+                            <mxPoint x="1068" y="906" as="sourcePoint"/>
+                            <mxPoint x="1308" y="906" as="targetPoint"/>
+                            <mxPoint y="1" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Отправка данных для&#10;дообучения модели AI" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="91">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="86" target="85" edge="1">
+                        <mxGeometry x="-0.7377" width="240" relative="1" as="geometry">
+                            <mxPoint x="1064" y="906" as="sourcePoint"/>
+                            <mxPoint x="1304" y="906" as="targetPoint"/>
+                            <Array as="points">
+                                <mxPoint x="2522" y="1146"/>
+                                <mxPoint x="2522" y="1037"/>
+                            </Array>
+                            <mxPoint as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Отправка запросов&#10;на подбор предложений" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="94">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="83" target="85" edge="1">
+                        <mxGeometry x="0.6538" width="240" relative="1" as="geometry">
+                            <mxPoint x="1734" y="1064" as="sourcePoint"/>
+                            <mxPoint x="1494" y="1064" as="targetPoint"/>
+                            <mxPoint as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Отправка запросов&#10;на подбор предложений" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="95">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="83" target="84" edge="1">
+                        <mxGeometry x="0.4811" width="240" relative="1" as="geometry">
+                            <mxPoint x="1734" y="1064" as="sourcePoint"/>
+                            <mxPoint x="1494" y="1064" as="targetPoint"/>
+                            <mxPoint as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="Relationship" c4Technology="Protobuf/gRPC" c4Description="Запросы на подбор предложений&#10;с использованием ИИ" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="96">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="28" target="83" edge="1">
+                        <mxGeometry x="0.0715" width="240" relative="1" as="geometry">
+                            <mxPoint x="1494" y="654" as="sourcePoint"/>
+                            <mxPoint x="1734" y="654" as="targetPoint"/>
+                            <mxPoint as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

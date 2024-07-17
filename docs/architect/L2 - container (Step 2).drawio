@@ -503,6 +503,20 @@
                         </mxGeometry>
                     </mxCell>
                 </object>
+                <object placeholders="1" c4Type="Relationship" c4Description="Получение структуры&#10;сообщения для отправки" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="83">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="78" target="57">
+                        <mxGeometry x="-0.3361" width="240" relative="1" as="geometry">
+                            <mxPoint x="383" y="727" as="sourcePoint"/>
+                            <mxPoint x="513" y="568" as="targetPoint"/>
+                            <Array as="points">
+                                <mxPoint x="399" y="282"/>
+                                <mxPoint x="399" y="443"/>
+                                <mxPoint x="573" y="443"/>
+                            </Array>
+                            <mxPoint as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
             </root>
         </mxGraphModel>
     </diagram>

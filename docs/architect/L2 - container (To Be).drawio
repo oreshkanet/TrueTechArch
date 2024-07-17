@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="whsvw9BAwa8M8qadcSOC" name="Страница 1">
-        <mxGraphModel dx="2370" dy="1930" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2139" dy="1591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -611,6 +611,20 @@
                         <mxGeometry width="240" relative="1" as="geometry">
                             <mxPoint x="1281" y="416" as="sourcePoint"/>
                             <mxPoint x="1521" y="416" as="targetPoint"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="Relationship" c4Description="Получение структуры&#10;сообщения для отправки" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="110">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="78" target="57">
+                        <mxGeometry x="-0.382" width="240" relative="1" as="geometry">
+                            <mxPoint x="377" y="266" as="sourcePoint"/>
+                            <mxPoint x="587" y="477" as="targetPoint"/>
+                            <Array as="points">
+                                <mxPoint x="388" y="282"/>
+                                <mxPoint x="388" y="445"/>
+                                <mxPoint x="573" y="445"/>
+                            </Array>
+                            <mxPoint as="offset"/>
                         </mxGeometry>
                     </mxCell>
                 </object>
