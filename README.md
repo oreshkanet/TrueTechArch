@@ -1,6 +1,8 @@
-**Architectural Ката 2024** - проектный конкурс для архитекторов от МТС
+# Architectural Ката 2024
 
-# Архитектурное решение USuperTravel
+Проектный конкурс для архитекторов от МТС
+
+## Архитектурное решение USuperTravel
 
 [USuperTravel](./docs/index.md)
 
