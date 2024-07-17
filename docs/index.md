@@ -4,6 +4,16 @@
 
 **Cloud UST** - Cloud-Ready система агрегатора предложений, повторяющее функционал Monolith UST. Дополнительно, система содержит функционал подбора предложений для клиента с использованием искусственного интеллекта.
 
+## Артефакты
+-[L1 - Context](/docs/architect/L1%20-%20context.png)
+-[L2 - Containers](/docs/architect/L2%20-%20container%20(To%20Be).png)
+-[Architect Decision Log](/docs/decisions/)
+
+**Roadmap:**
+-[L2 - Containers (Step 1): CloudReady приложение](/docs/architect/L2%20-%20container%20(Step%201).png)
+-[L2 - Containers (Step 2): Интеграция всех операторов услуг с Cloud UST](/docs/architect/L2%20-%20container%20(Step%202).png)
+-[L2 - Containers (Step 3): Реализация поиска предложений услуг с использованием ИИ](/docs/architect/L2%20-%20container%20(Step%203).png)
+
 ## Описание системы
 
 ### Клиентские приложения
